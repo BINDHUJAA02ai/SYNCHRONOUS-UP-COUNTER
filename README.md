@@ -3,7 +3,7 @@ Name:Bindhujaa.S
 RegisterNo:24901119
 
 
-**Experiment11: SYNCHRONOUS-UP-COUNTER**
+**Experiment11: IMPLEMENTATION OF SYNCHRONOUS-UP-COUNTER**
 
 **AIM:**
 
