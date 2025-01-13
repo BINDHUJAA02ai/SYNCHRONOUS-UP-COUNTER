@@ -32,13 +32,13 @@ The next flip-flop need only “recognize” that the first flip-flop’s Q outp
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
 **Procedure**
-~~~
+
  1.Initialize the shift register to a known state (e.g., all zeros).
  2.Input a bit serially into the shift register.
  3.Shift the contents of the register one position to the right (or left).
  4.Output the shifted bit from the last stage of the register.
  5.Repeat steps 2-4 for each bit you want to input and shift.
-~~~
+
 **PROGRAM**
 
 ![Screenshot 2025-01-06 203423](https://github.com/user-attachments/assets/1c969912-c4a7-48e1-99de-47732806092b)
@@ -47,11 +47,12 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **RTL LOGIC UP COUNTER**
 
-![Screenshot 2025-01-06 203056](https://github.com/user-attachments/assets/d9250876-f67c-496f-99e2-34e829073582)
+![Screenshot (83)](https://github.com/user-attachments/assets/0c2dc8f2-7803-475f-9567-9d13652d1ad4)
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
-![Screenshot 2025-01-06 203105](https://github.com/user-attachments/assets/6c98aaa1-eabb-42ad-9999-f17cd4d6a90d)
+![Screenshot (84)](https://github.com/user-attachments/assets/11260a46-de84-46cc-b3ad-ec7d4257ae05)
 
 **TRUTH TABLE**
 
